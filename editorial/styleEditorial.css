@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 390px;
+    height: 844px;
+    background-image: url(../img/diderotBackground.png);
+    background-repeat: no-repeat;
+}
+
+h1{
+    font-family: "League Spartan";
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.topico-div{
+    background-color: #2b3b5b;
+    margin: 65px auto 0 auto;
+    width: 350px;
+    height: 150px;
+    border-radius: 20px;
+    font-family: "League Spartan";
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.topico2-div{
+    background-color: #2b3b5b;
+    margin: 50px auto 0 auto;
+    width: 370px;
+    height: 200px;
+    border-radius: 20px;
+    font-family: "League Spartan";
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topico-p{
+    width: 335px;
+    color: white;
+    font-size: 16.5px;
+    font-family: "League Spartan";
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.topico2-p{
+    width: 235px;
+    height: 160px;
+    color: white;
+    font-family: "League Spartan";
+
+    position: relative;
+    left: 60px;
+}
+
+.imagem-div {
+    position: relative;
+    width: 240px;
+    height: 500px;
+    margin-left: auto; 
+    margin-right: 107px;
+    margin-bottom: -240px;
+  }
+
+.esculturaIMG {
+    position: absolute;
+    bottom: 230px;
+    right: 150px;
+    width: 240px;
+    height: 500px;
+    z-index: 5;
+}
+
+.div-video{
+    position: relative;
+    bottom: 200px;
+    left: 100px;
+}
+
+.video{
+    width: 280px;
+    height: 160px;
+}
+
+.proxPag-div{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 13px;
+    margin-bottom: 13px;
+}
+
+.pagAnterior-div{
+    position: fixed;
+    bottom: 0;
+    margin-left: 13px;
+    margin-bottom: 13px;
+}
+
+.proxPag-button{
+    width: 150px;
+    height: 35px;
+    background-color: #455574;
+    border: 0;
+    border-radius: 20px;
+}
+
+.pagAnterior-button{
+    width: 150px;
+    height: 35px;
+    background-color: #455574;
+    border: 0;
+    border-radius: 20px;
+}
+
+.proxPag-button a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: "League Spartan";
+}
+
+.pagAnterior-button a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: "League Spartan";
+}
