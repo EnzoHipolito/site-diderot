@@ -9,7 +9,6 @@ body{
     width: 390px;
     height: 844px;
     background-image: url(../img/diderotBackground.png);
-    background-repeat: no-repeat;
 }
 
 h1{
@@ -97,7 +96,7 @@ h1{
 }
 
 .proxPag-div{
-    position: fixed;
+    position: absolute;
     bottom: 0;
     right: 0;
     margin-right: 13px;
@@ -105,7 +104,7 @@ h1{
 }
 
 .pagAnterior-div{
-    position: fixed;
+    position: absolute;
     bottom: 0;
     margin-left: 13px;
     margin-bottom: 13px;
