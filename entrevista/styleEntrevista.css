@@ -8,3 +8,21 @@ body{
     height: 844px;
     background-image: url(../img/diderotBackground.png);
 }
+
+.titulo-div{
+    width: 175px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #455574;
+    border: 0;
+    border-radius: 20px;
+}
+
+.titulo-p{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: "League Spartan";
+}
