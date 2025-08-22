@@ -11,20 +11,11 @@ body{
     background-image: url(../img/diderotBackground.png);
 }
 
-.titulo-div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 40px auto;
-    width: 200px;
-    height: 50px;
-    border-radius: 27px;
-}
-
-.titulo-p{
-    font-size: 30px;
+h1{
     font-family: "League Spartan";
     color: white;
+    text-align: center;
+    margin-top: 30px;
 }
 
 .audio1{
@@ -42,7 +33,7 @@ body{
     width: 330px;
     height: 380px;
     border-radius: 27px;
-    background-color: #091a3f;
+    background-color: #2b3b5b;
 }
 
 .topico-p{
