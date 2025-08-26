@@ -104,7 +104,7 @@ h1{
 }
 
 .proxPag-div{
-    position: absolute;
+    position: fixed;
     bottom: 0;
     right: 0;
     margin-right: 13px;
@@ -112,7 +112,7 @@ h1{
 }
 
 .pagAnterior-div{
-    position: absolute;
+    position: fixed;
     bottom: 0;
     margin-left: 13px;
     margin-bottom: 13px;
