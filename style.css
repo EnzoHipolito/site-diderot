@@ -24,8 +24,8 @@ main{
 }
 
 .proxPag-button{
-    width: 200px;
-    height: 45px;
+    width: 195px;
+    height: 42px;
     background-color: #455574;
     border: 0;
     border-radius: 20px;
@@ -38,13 +38,17 @@ main{
     font-family: "League Spartan";
 }
 
+.proxPag-button:hover{
+    background-color: #5475b6;
+}
+
 .footer-div{
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 200px auto;
-    width: 330px;
-    height: 50px;
+    width: 340px;
+    height: 40px;
     border-radius: 27px;
     background-color: #455574;
 }

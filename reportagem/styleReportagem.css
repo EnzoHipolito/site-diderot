@@ -120,7 +120,8 @@ h1{
 }
 
 .proxPag-div{
-    position: absolute;
+    position: fixed;
+    z-index: 99;
     bottom: 0;
     right: 0;
     margin-right: 13px;
@@ -128,7 +129,8 @@ h1{
 }
 
 .pagAnterior-div{
-    position: absolute;
+    position: fixed;
+    z-index: 99;
     bottom: 0;
     margin-left: 13px;
     margin-bottom: 13px;
@@ -169,4 +171,11 @@ h1{
     justify-content: center;
     align-items: center;
     margin: 20px auto;
+}
+
+.pagAnterior-button:hover{
+    background-color: #5475b6;
+}
+.proxPag-button:hover{
+    background-color: #5475b6;
 }

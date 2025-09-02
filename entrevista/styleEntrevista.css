@@ -1,4 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+.scale-up-center {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
 
 *{
     padding: 0;
@@ -65,7 +90,8 @@ body{
 }
 
 .proxPag-div{
-    position: absolute;
+    position: fixed;
+    z-index: 99;
     bottom: 0;
     right: 0;
     margin-right: 13px;
@@ -73,8 +99,9 @@ body{
 }
 
 .pagAnterior-div{
-    position: absolute;
+    position: fixed;
     bottom: 0;
+    z-index: 99;
     margin-left: 13px;
     margin-bottom: 13px;
 }
@@ -107,4 +134,11 @@ body{
     color: white;
     font-size: 15px;
     font-family: "League Spartan";
+}
+
+.pagAnterior-button:hover{
+    background-color: #5475b6;
+}
+.proxPag-button:hover{
+    background-color: #5475b6;
 }

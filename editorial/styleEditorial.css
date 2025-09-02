@@ -105,6 +105,7 @@ h1{
 
 .proxPag-div{
     position: fixed;
+    z-index: 99;
     bottom: 0;
     right: 0;
     margin-right: 13px;
@@ -113,6 +114,7 @@ h1{
 
 .pagAnterior-div{
     position: fixed;
+    z-index: 99;
     bottom: 0;
     margin-left: 13px;
     margin-bottom: 13px;
@@ -146,4 +148,11 @@ h1{
     color: white;
     font-size: 15px;
     font-family: "League Spartan";
+}
+
+.pagAnterior-button:hover{
+    background-color: #5475b6;
+}
+.proxPag-button:hover{
+    background-color: #5475b6;
 }
