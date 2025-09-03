@@ -42,7 +42,6 @@ body{
     height: 844px;
     background-image: url(../img/diderotBackground.png);
     object-fit: fill;
-    overflow-y: hidden;
 }
 
 h1{
@@ -75,6 +74,7 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 30px;
     margin: 20px auto;
     margin-top: 40px;
 }

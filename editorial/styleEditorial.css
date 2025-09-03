@@ -101,6 +101,7 @@ h1{
 .video{
     width: 280px;
     height: 160px;
+    border-radius: 25px;
 }
 
 .proxPag-div{
